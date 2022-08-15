@@ -1,3 +1,10 @@
-This is a sample text file
-This is a new line
-This is a new line
+Difference between add, commit, and push git commands
+
+git add
+This command lets you stage your changes from your working directory. But this will not make any changes in the target branch or the repository as it only marks the affected files with specific changes to be ready for the next commit.
+
+git commit
+Committing your changes in git captures the current version of your local repository based on the staged changes in your local branch. When committing a change, a message or remark can also be included to provide a brief description of the change for tracking purposes.
+
+git push
+By using the push command, local commits and changes will be uploaded to the remote repository.
